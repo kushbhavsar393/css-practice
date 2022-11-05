@@ -1,0 +1,44 @@
+body {
+    background-color: blueviolet;
+}
+h1 {
+    color: darkred;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-variant-ligatures: historical-ligatures;
+    text-align: center;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0; padding: 0;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 10px;
+    background-color: rgba(9, 10, 10, 0.7);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .column {
+    font-family: 'Output Sans', -apple-system, BlinkMacSystemFont, 
+      "Segoe UI", "Roboto", "Oxygen", 
+      "Ubuntu", "Cantarell", "Fira Sans", 
+      "Droid Sans", "Helvetica Neue", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: rgba(0,0,0,.2);
+    align-items: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
